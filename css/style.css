@@ -1,0 +1,249 @@
+@font-face {
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-family: "Roboto-Medium";
+}
+
+@font-face {
+    src: url("../fonts/NotoSerif-Regular.ttf");
+    font-family: "Noto-Serif-Regular";
+}
+
+@font-face {
+    src: url("../fonts/Poppins-ExtraBold.ttf");
+    font-family: "Poppins-ExtraBold";
+}
+
+@font-face {
+    src: url("../fonts/Roboto-Light.ttf");
+    font-family: "Roboto-Light";
+}
+
+body{
+    color: #3a3a3a;
+    font-size: 18px;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 220px;
+}
+
+.navbar-container{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 220px;
+    z-index: 10;
+}
+
+.logo{
+    /* padding-left: 104px; */
+    width: 120px;
+}
+
+.links{
+    /* padding-right: 104px; */
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.links a{
+text-decoration: none;
+color: #3a3a3a;
+} 
+
+.btn-mis-trabajos{
+    font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+}
+
+
+.btn-sobre-mi{
+    font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    opacity: 40%;
+}
+
+.btn-sobre-mi:hover{
+    font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    opacity: 100%;
+    border-bottom: 1.5px solid #FD526F;
+}
+
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li:last-child{
+    margin: 0;
+}
+
+.presentation-container{
+    height: 356px;
+    padding-top: 80px;
+}
+
+.presentation-container p{
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    width: 60%;
+}
+
+h1{
+    font-family: "Noto-Serif-Regular", Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    line-height: 52px;
+    padding-top: 62px;
+    padding-bottom: 36px;
+}
+
+.pink-text{
+    color: #FD526F;
+}
+
+.italic-text{
+    font-style: italic;
+}
+
+.works-title{
+    /* padding-top: 100px; */
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.works-title h2{
+    font-size: 18px;
+    font-family: "Noto-Serif-Regular", Georgia, Times, 'Times New Roman', serif;
+}
+
+.works-title hr{
+    width: 100px;
+    height: 1px;
+    border: none;
+    background-color: #3a3a3a;
+    align-items: center;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.works-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 120px;
+
+}
+
+.works-container img{
+    border-radius: 10px;
+    margin-right: 68px;
+}
+
+.works-container-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.works-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.works-container-text p{
+    line-height: 26px;
+    padding-bottom: 26px;
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: "Noto-Serif-Regular", Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.btn-ver a{
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FD526F;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.btn-ver a:hover{
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FD526F;
+    border-bottom: 2px solid #FD526F ;
+}
+
+.number-list{
+    font-family: "Poppins-ExtraBold", Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    color: #F1F1F1;
+    margin-left: -25px;
+    z-index: -1;
+}
+
+/* ------- */
+
+.footer-logo a{
+    display: flex;
+    justify-content: center;
+    padding: 26px 0;
+    margin-top: 50px;
+    border-top: 1px solid #e3e3e3;
+    text-decoration: none;
+}
+
+.footer-logo img{
+    opacity: 15%;
+    width: 100px;
+}
+
+.footer-nav{
+    display: flex;
+    opacity: 50%;
+}
+
+.footer-nav img{
+    width: 20px;
+}
+
+.footer-sub{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 26px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+}
+
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  }
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  }
+  @media only screen and (min-width: 1441px)  {
+  }
